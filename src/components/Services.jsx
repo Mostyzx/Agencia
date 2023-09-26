@@ -1,4 +1,5 @@
 import React from 'react'
+import Membros from '../assets/Membros.png'
 
 const Services = () => {
   const services = [

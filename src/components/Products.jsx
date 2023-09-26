@@ -1,7 +1,6 @@
 import React from 'react'
 import Frame35 from '../assets/pana.png'
 import imagem9 from '../assets/image 9.png'
-import Logo1 from '../assets/Logo1.png'
 
 const Products = () => {
     return (
@@ -38,7 +37,7 @@ const Products = () => {
                             <p className='text-base text-neutralGrey mb-8'>Lorem ipsum dolor sit amet consectetur</p>
                             <div>
                                 <div className='flex items-center gap-8 flex-wrap'>
-                                    <img src={Logo1} alt="" />
+                                    <img src="./src/assets/Logo1.png" alt="" />
                                     <img src="./src/assets/Logo2.png" alt="" />
                                     <img src="./src/assets/Logo3.png" alt="" />
                                     <img src="./src/assets/Logo4.png" alt="" />
