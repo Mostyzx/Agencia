@@ -37,13 +37,13 @@ const Products = () => {
                             <p className='text-base text-neutralGrey mb-8'>Lorem ipsum dolor sit amet consectetur</p>
                             <div>
                                 <div className='flex items-center gap-8 flex-wrap'>
-                                    <img src="./src/assets/Logo1.png" alt="" />
-                                    <img src="./src/assets/Logo2.png" alt="" />
-                                    <img src="./src/assets/Logo3.png" alt="" />
-                                    <img src="./src/assets/Logo4.png" alt="" />
-                                    <img src="./src/assets/Logo5.png" alt="" />
-                                    <img src="./src/assets/Logo6.png" alt="" />
-                                    <img src="./src/assets/Logo7.png" alt="" />
+                                    <img src="../src/assets/Logo1.png" alt="" />
+                                    <img src="../src/assets/Logo2.png" alt="" />
+                                    <img src="../src/assets/Logo3.png" alt="" />
+                                    <img src="../src/assets/Logo4.png" alt="" />
+                                    <img src="../src/assets/Logo5.png" alt="" />
+                                    <img src="../src/assets/Logo6.png" alt="" />
+                                    <img src="../src/assets/Logo7.png" alt="" />
                                     <div className='flex items-center gab-8'>
                                         <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Lorem pirem neque <svg className='inline-block ml-2' width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g id="Right">

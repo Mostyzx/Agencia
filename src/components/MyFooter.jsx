@@ -26,7 +26,7 @@ const MyFooter = () => {
                             <div>
                                 <Footer.Title title="about" />
                                 <Footer.LinkGroup col>
-                                    <Footer.Link href="#">
+                                    <Footer.Link href="#">npm 
                                         Flowbite
                                     </Footer.Link>
                                     <Footer.Link href="#">
