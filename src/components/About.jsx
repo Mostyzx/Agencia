@@ -1,5 +1,9 @@
 import React from 'react'
 import Frame35 from '../assets/Frame 35.png'
+import iMember from '../assets/iMember.png'
+import iEvent from '../assets/iEvent.png'
+import iClube from '../assets/iClube.png'
+import iPayment from '../assets/iPayment.png'
 
 function About() {
     return (
@@ -30,14 +34,14 @@ function About() {
                     <div className='md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12'>
                         <div className='space-y-8'>
                             <div className='flex items-center gap-4'>
-                                <img src="/src/assets/iMember.png" alt="" />
+                                <img src={iMember} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>2,245,341</h4>
                                     <p>Loremms</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-4'>
-                                <img src="/src/assets/iEvent.png" alt="" />
+                                <img src={iEvent} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>828,867</h4>
                                     <p>Loremms</p>
@@ -46,14 +50,14 @@ function About() {
                         </div>
                         <div className='space-y-8'>
                             <div className='flex items-center gap-4'>
-                                <img src="/src/assets/iClube.png" alt="" />
+                                <img src={iClube} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>46,328</h4>
                                     <p>Loremms</p>
                                 </div>
                             </div>
                             <div className='flex items-center gap-4'>
-                                <img src="/src/assets/iPayment.png" alt="" />
+                                <img src={iPayment} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>1,926,436</h4>
                                     <p>Loremms</p>

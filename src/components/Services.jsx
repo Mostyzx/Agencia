@@ -1,19 +1,29 @@
 import React from 'react'
 import Membros from '../assets/Membros.png'
+import Logo1 from '../assets/Logo1.png'
+import Logo2 from '../assets/Logo2.png'
+import Logo3 from '../assets/Logo3.png'
+import Logo4 from '../assets/Logo4.png'
+import Logo5 from '../assets/Logo5.png'
+import Logo6 from '../assets/Logo6.png'
+import Logo7 from '../assets/Logo7.png'
+import Membrosimg from "../assets/Membros.png"
+import Associacoesimg from "../assets/associacoes.png"
+import clubeimg from "../assets/clube.png"
 
 const Services = () => {
   const services = [
     {id: 1, title: "Lorem Piremmens", 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "../src/assets/Membros.png"
+    image: Membrosimg
     },
     {id: 2, title: "Lorem Piremmens", 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "../src/assets/associacoes.png"
+    image: Associacoesimg
     },
     {id: 3, title: "Lorem Piremmens", 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "../src/assets/clube.png"
+    image: clubeimg
     },
   ]
   return (
@@ -24,13 +34,13 @@ const Services = () => {
 
 
             <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-                <img src="../src/assets/Logo1.png" alt="" />
-                <img src="../src/assets/Logo2.png" alt="" />
-                <img src="../src/assets/Logo3.png" alt="" />
-                <img src="../src/assets/Logo4.png" alt="" />
-                <img src="../src/assets/Logo5.png" alt="" />
-                <img src="../src/assets/Logo6.png" alt="" />
-                <img src="../src/assets/Logo7.png" alt="" />
+                <img src={Logo1} alt="" />
+                <img src={Logo2} alt="" />
+                <img src={Logo3} alt="" />
+                <img src={Logo4} alt="" />
+                <img src={Logo5} alt="" />
+                <img src={Logo6} alt="" />
+                <img src={Logo7} alt="" />
             </div>
         </div>
         

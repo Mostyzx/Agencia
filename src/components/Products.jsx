@@ -1,6 +1,13 @@
 import React from 'react'
 import Frame35 from '../assets/pana.png'
 import imagem9 from '../assets/image 9.png'
+import Logo1 from '../assets/Logo1.png'
+import Logo2 from '../assets/Logo2.png'
+import Logo3 from '../assets/Logo3.png'
+import Logo4 from '../assets/Logo4.png'
+import Logo5 from '../assets/Logo5.png'
+import Logo6 from '../assets/Logo6.png'
+import Logo7 from '../assets/Logo7.png'
 
 const Products = () => {
     return (
@@ -37,13 +44,13 @@ const Products = () => {
                             <p className='text-base text-neutralGrey mb-8'>Lorem ipsum dolor sit amet consectetur</p>
                             <div>
                                 <div className='flex items-center gap-8 flex-wrap'>
-                                    <img src="../src/assets/Logo1.png" alt="" />
-                                    <img src="../src/assets/Logo2.png" alt="" />
-                                    <img src="../src/assets/Logo3.png" alt="" />
-                                    <img src="../src/assets/Logo4.png" alt="" />
-                                    <img src="../src/assets/Logo5.png" alt="" />
-                                    <img src="../src/assets/Logo6.png" alt="" />
-                                    <img src="../src/assets/Logo7.png" alt="" />
+                                    <img src={Logo1} alt="" />
+                                    <img src={Logo2} alt="" />
+                                    <img src={Logo3} alt="" />
+                                    <img src={Logo4} alt="" />
+                                    <img src={Logo5} alt="" />
+                                    <img src={Logo6} alt="" />
+                                    <img src={Logo7} alt="" />
                                     <div className='flex items-center gab-8'>
                                         <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Lorem pirem neque <svg className='inline-block ml-2' width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g id="Right">
