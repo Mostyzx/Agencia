@@ -4,15 +4,15 @@ const Services = () => {
   const services = [
     {id: 1, title: "Lorem Piremmens", 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "/src/assets/Membros.png"
+    image: "./src/assets/Membros.png"
     },
     {id: 2, title: "Lorem Piremmens", 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "/src/assets/associacoes.png"
+    image: "./src/assets/associacoes.png"
     },
     {id: 3, title: "Lorem Piremmens", 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    image: "/src/assets/clube.png"
+    image: "./src/assets/clube.png"
     },
   ]
   return (
@@ -23,13 +23,13 @@ const Services = () => {
 
 
             <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-                <img src="/src/assets/Logo1.png" alt="" />
-                <img src="/src/assets/Logo2.png" alt="" />
-                <img src="/src/assets/Logo3.png" alt="" />
-                <img src="/src/assets/Logo4.png" alt="" />
-                <img src="/src/assets/Logo5.png" alt="" />
-                <img src="/src/assets/Logo6.png" alt="" />
-                <img src="/src/assets/Logo7.png" alt="" />
+                <img src="./src/assets/Logo1.png" alt="" />
+                <img src="./src/assets/Logo2.png" alt="" />
+                <img src="./src/assets/Logo3.png" alt="" />
+                <img src="./src/assets/Logo4.png" alt="" />
+                <img src="./src/assets/Logo5.png" alt="" />
+                <img src="./src/assets/Logo6.png" alt="" />
+                <img src="./src/assets/Logo7.png" alt="" />
             </div>
         </div>
         

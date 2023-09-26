@@ -2,9 +2,9 @@ import React from 'react'
 
 const Blog = () => {
     const blogs = [
-        { id: 1, title: "Lorem ipsum dolor sit amet consectetur adipisicing", image: "/src/assets/blog1.png" },
-        { id: 2, title: "Lorem ipsum dolor sit amet consectetur adipisicing", image: "/src/assets/blog2.png" },
-        { id: 3, title: "Lorem ipsum dolor sit amet consectetur adipisicing", image: "/src/assets/blog3.png" },
+        { id: 1, title: "Lorem ipsum dolor sit amet consectetur adipisicing", image: "./src/assets/blog1.png" },
+        { id: 2, title: "Lorem ipsum dolor sit amet consectetur adipisicing", image: "./src/assets/blog2.png" },
+        { id: 3, title: "Lorem ipsum dolor sit amet consectetur adipisicing", image: "./src/assets/blog3.png" },
     ]
     return (
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12' id='faq'>
